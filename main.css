@@ -1,0 +1,184 @@
+body
+{
+    margin:0;
+    padding:0;
+    background: #f2f2f2 !important;
+}
+
+.container
+{
+   color: #8d8d8d; 
+}
+
+.container > h1
+{
+    width: 95%;
+}
+
+.activeMark
+{
+    position: relative;
+    float: right;
+    top:-55px;
+}
+.activeMark i,
+.activeMark h3
+{
+    display: inline-block;
+}
+.activeMark i
+{
+    position: relative;
+    font-size: 25px;
+    color: #eb891e;
+}
+
+.activeMark h3
+{
+    margin-left: 10px;
+    color: #eb891e;
+    font-size: 15px;
+    font-weight: 800;
+    position: relative;
+    top: -2px;
+    
+}
+.jd-list
+{
+    
+    width: 300px;
+    height: 400px;
+    background: #f6f7f9;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.2);
+    
+}
+
+.jd-list ul li
+{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #ffffff;
+    
+}
+
+.jd-list ul li:hover
+{
+    cursor: pointer;
+    background: #0065b5;
+    color: #ffffff;
+}
+.jd-list ul
+{
+    padding: 0px;
+}
+
+.jd-list ul .active
+{
+     background: #0065b5;
+    color: #ffffff;
+}
+.jd-list-details
+{
+/*    margin-top: 20px;*/
+    padding: 30px 20px;
+    height: 400px;
+    background: #f6f7f9;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.2);
+    background: #ffffff;
+    color: #4d4d4d;
+}
+
+.jd-list-details h2
+{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.jd-details-content
+{
+   height: 300px; 
+    overflow-y: scroll;
+}
+
+.jd-details-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.jd-details-content table
+{
+   
+   width: 95%; 
+   border-collapse: collapse;
+   
+}
+
+/* Chrome, Safari */
+::-webkit-scrollbar {
+width: 10px;
+height: 15px;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: #f2f2f2;
+}
+::-webkit-scrollbar-thumb:vertical {
+height: 30px;
+background-color: #eb891e;
+}
+
+.jd-details-content table tr
+{
+    height: 50px;
+}
+
+.jd-details-content table th
+{
+    background: #f6f7f9;
+    color: #0065b7;
+    font-weight:normal;
+        
+}
+.jd-list-content i
+{
+    position: relative;
+    float: right;
+    top: 17px;
+    right: 20px;
+}
+.jd-details-content table th,
+.jd-details-content table td
+{
+    border: 1px solid #d9d9d9;
+    padding-left: 20px
+}
+.case-info div
+{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+.case-info i
+{
+    margin-right: 5px;
+}
+
+.jd-buttons
+{
+    margin-top: 30px;
+    padding-left: 20px;
+    color: white;
+}
+
+.jd-buttons button
+{
+    background: #999999;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
